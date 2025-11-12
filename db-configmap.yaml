@@ -1,0 +1,7 @@
+apiVersion : v1
+kind : ConfigMap
+metadata :
+  name : db-configmap
+data :
+  DB_HOST : mysql
+  DB_NAME : order_db
